@@ -61,7 +61,7 @@ export default function Home() {
             <div className="col-md-3 text-center text-white">
               <i class="fa fa-4x fa-briefcase"></i>
               <p class="number">+50</p>
-              <p>Gateau d'anniversaire réalisé</p>
+              <p>Gateau d&apos;anniversaire réalisé</p>
             </div>
             <div className="col-md-3 text-center text-white">
               <i class="fa fa-4x fa-briefcase"></i>
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="col-md-3 text-center text-white">
               <i class="fa fa-4x fa-briefcase"></i>
               <p class="number">+10</p>
-              <p>Y'en a un peu moins lol</p>
+              <p>Y&apos;en a un peu moins lol</p>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Home() {
           <div class="col-md-6">
             <div class="h-100 p-5 bg-body-tertiary border rounded-3">
               <h2>Notre spécialités</h2>
-              <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+              <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we&apos;ve adjusted the alignment and sizing of both column&apos;s content for equal-height.</p>
               <button class="btn btn-outline-secondary" type="button">Example button</button>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
               <div className="text-center w-75 mx-auto">
                 <h3>Au Pain De Caractère</h3>
                 <span class="fa fa-star text-secondary fa-1x my-3"></span>
-                <p>Texte de présentation rapide de la boulangerie pour qu'on nous trouve sur Google.
+                <p>Texte de présentation rapide de la boulangerie pour qu&apos;on nous trouve sur Google.
                   Vero possimus labore enim eos totam assumenda cupiditate doloribus sed quasi delectus fugiat necessitatibus nisi, eum amet repellat sit ad sunt consectetur impedit, perferendis provident dolores. Voluptates voluptas incidunt deleniti consectetur? Error dolores numquam distinctio sint nesciunt optio dolorum dolorem.</p>
                   <div className="d-flex justify-content-center gap-4 mt-5">
                   <i className="fa fab fa-facebook-square fa-1x"></i>
