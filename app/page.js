@@ -108,7 +108,7 @@ export default function Home() {
         <div className="container bg-semi-transparent py-5">
           <div className="row d-flex align-items-center justify-content-center">
             <div className="col-md-8">
-              <blockquote>"La boulangerie est l&apos;art de transformer humblement des ingrédients simples en joie pour le cœur et réconfort pour l&apos;âme."</blockquote>
+              <blockquote>&ldquo;La boulangerie est l&apos;art de transformer humblement des ingrédients simples en joie pour le cœur et réconfort pour l&apos;âme.&ldquo;</blockquote>
             </div>
           </div>
         </div>
