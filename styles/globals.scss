@@ -21,6 +21,10 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
 .separator {
   background-image: url('https://abdulsamad.xyz/Bakery/images/tasteful-recipes.jpg');
   background-size: cover;
+  background-position: center;
+}
+
+.separator, .separator > .bg-semi-transparent {
   min-height: 300px;
 }
 
@@ -41,4 +45,16 @@ section {
 .number {
   font-weight: 700;
   @extend .fs-2, .pt-3, .mb-0;
+}
+
+.contact-link {
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+  margin: 7px 0px;
+  @extend .d-flex, .align-items-center, .gap-2;
+}
+
+.contact-link:hover {
+  color: rgb(87, 85, 85);
 }

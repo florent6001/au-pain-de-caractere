@@ -11,16 +11,13 @@ export default function Home() {
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Accueil</a>
+                  <a class="nav-link" href="#histoire">Notre Histoire</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Notre Histoire</a>
+                  <a class="nav-link" href="#specialites">Spécialités</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Spécialités</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -61,37 +58,37 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-3 text-center text-white">
-              <i class="fa fa-4x fa-briefcase"></i>
+              <i class="fa fa-certificate fa-4x text-secondary"></i>
+              <p class="number">+20</p>
+              <p>ans d&apos;expérience</p>
+            </div>
+            <div className="col-md-3 text-center text-white">
+              <i class="fa fa-bread-slice fa-4x text-secondary"></i>
               <p class="number">+150</p>
               <p>Baguettes par jours</p>
             </div>
             <div className="col-md-3 text-center text-white">
-              <i class="fa fa-4x fa-briefcase"></i>
+              <i class="fa-solid fa-cake-candles fa-4x text-secondary"></i>
               <p class="number">+50</p>
-              <p>Gateau d&apos;anniversaire réalisé</p>
+              <p>Gateau d&apos;anniversaire réalisés</p>
             </div>
             <div className="col-md-3 text-center text-white">
-              <i class="fa fa-4x fa-briefcase"></i>
-              <p class="number">+20</p>
-              <p>Je sais pas quoi</p>
-            </div>
-            <div className="col-md-3 text-center text-white">
-              <i class="fa fa-4x fa-briefcase"></i>
-              <p class="number">+10</p>
-              <p>Y&apos;en a un peu moins lol</p>
+              <i class="fa fa-users fa-4x text-secondary"></i>
+              <p class="number">3</p>
+              <p>Employ&eacute;s qualifi&eacute;</p>
             </div>
           </div>
         </div>
       </section>
-      <section className="container">
+      <section className="container" id="specialites">
         <div class="row align-items-start">
           <div class="col-md-6">
             <div className="px-5">
               <div style={{ width: "100%", display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 10 }}>
-                <img src="https://abdulsamad.xyz/Bakery/images/square-2.jpg" class="w-100" />
-                <img src="https://abdulsamad.xyz/Bakery/images/square-2.jpg" class="w-100" />
-                <img src="https://abdulsamad.xyz/Bakery/images/square-2.jpg" class="w-100" />
-                <img src="https://abdulsamad.xyz/Bakery/images/square-2.jpg" class="w-100" />
+                <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 h-100" />
+                <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=2850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 h-100" />
+                <img src="https://images.unsplash.com/photo-1583743089695-4b816a340f82?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 h-100" />
+                <img src="https://images.unsplash.com/photo-1589757833922-4c902798aabf?q=80&w=2826&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 h-100" />
               </div>
             </div>
           </div>
@@ -104,24 +101,27 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section class="separator text-white fs-3 text-center d-flex align-items-center">
-        <div className="container bg-semi-transparent py-5">
-          <div className="row d-flex align-items-center justify-content-center">
-            <div className="col-md-8">
-              <blockquote>&ldquo;La boulangerie est l&apos;art de transformer humblement des ingrédients simples en joie pour le cœur et réconfort pour l&apos;âme.&ldquo;</blockquote>
+      <div class="separator">
+        <div className="bg-semi-transparent text-white fs-3 text-center d-flex align-items-center">
+          <div className="container py-5">
+            <div className="row d-flex align-items-center justify-content-center">
+              <div className="col-md-8">
+                <blockquote>&ldquo;La boulangerie est l&apos;art de transformer humblement des ingrédients simples en joie pour le cœur et réconfort pour l&apos;âme.&ldquo;</blockquote>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="container p-0 pb-3">
+      </div>
+      <section class="container pb-3" id="contact">
         <h2>Nous retrouver</h2>
         <div className="row">
           <div className="col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2554.81483481439!2d1.4974468!3d50.1832983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dde39731eb7555%3A0xc1d36977dfcf5acd!2sAu%20Pain%20De%20Caractere!5e0!3m2!1sen!2sfr!4v1708271886947!5m2!1sen!2sfr" width="100%" height="300" allowfullscreen=""></iframe>
           </div>
           <div className="col-md-6">
-            <i className="fa fa-phone fa-1x"></i>Téléphone <br />
-            <div className="fa fa-envelope fa-1x"></div>Email <br />
+            <h3 class="mb-4">Informations de contact</h3>
+            <a href="tel:+33322260506" class="contact-link"><i className="fa fa-phone"></i> 03 22 26 65 06</a>
+            <a href="mailto:njbadaire@gmail.com" class="contact-link"><i className="fa fa-envelope"></i> njbadaire@gmail.com</a>
           </div>
         </div>
       </section>
@@ -129,15 +129,16 @@ export default function Home() {
         <div className="container">
           <div class="row">
             <div className="col-md-4">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FAu-Pain-de-caractere%2F61555733292883%2F&tabs=timeline&width=200&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="200" height="200" frameBorder="0" allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FAu-Pain-de-caractere%2F61555733292883%2F&tabs=timeline&width=200&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="200" height="200" frameBorder="0" allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
             <div className="col-md-8">
               <div class="d-flex flex-column flex-sm-row py-4 my-4">
                 <div className="mx-auto">
                   <h3>Au Pain De Caractère</h3>
                   <span class="fa fa-star text-secondary fa-1x my-3"></span>
-                  <p>Texte de présentation rapide de la boulangerie pour qu&apos;on nous trouve sur Google.
-                    Vero possimus labore enim eos totam assumenda cupiditate doloribus sed quasi delectus fugiat necessitatibus nisi, eum amet repellat sit ad sunt consectetur impedit, perferendis provident dolores. Voluptates voluptas incidunt deleniti consectetur? Error dolores numquam distinctio sint nesciunt optio dolorum dolorem.</p>
+                  <p>
+                      Découvrez l&apos;authenticité artisanale de notre boulangerie à Cayeux-sur-mer, où chaque miette raconte une histoire de passion et de savoir-faire. Nos pains frais, nos pâtisseries délicieusement concoctées et nos croissants croustillants sont le fruit du travail acharné et de l&apos;amour que nous mettons dans chaque préparation. Rejoignez-nous dans cette aventure gustative et laissez-nous vous régaler avec nos délices traditionnels.
+                  </p>
                   <div className="d-flex gap-4 mt-5">
                     <i className="fa fab fa-facebook-square fa-1x"></i>
                     <i className="fa fab fa-instagram fa-1x"></i>
