@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <>
-      <div className="full-image flex-column d-flex align-items-center">
-        <nav class="w-100 navbar navbar-expand-md navbar-dark bg-transparent">
+      <div className="full-image flex-column d-flex align-items-start">
+        <nav class="w-100 navbar navbar-expand-md navbar-dark">
           <div class="container">
             <a class="navbar-brand" href="#">Au Pain De Caractère</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,30 +26,37 @@ export default function Home() {
             </div>
           </div>
         </nav>
-        <div class="py-5 my-5 text-white h-100 rounded-3">
-          <div class="container">
-            <h1 class="display-5 fw-bold">Au Pain De Caractère</h1>
-            <p class="col-md-8 fs-5 my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, mollitia. Est praesentium modi impedit, vitae, nesciunt deleniti enim ducimus iure repellendus mollitia expedita deserunt, aspernatur commodi iste culpa eaque aut voluptate perspiciatis id odit. Culpa veniam suscipit sequi, laboriosam mollitia provident illum recusandae itaque animi doloribus quam ea? Maiores, ratione?
-            </p>
-            <button class="btn btn-secondary btn-lg" type="button">Nous découvrir</button>
+        <div className="container">
+          <div className="col-md-6">
+            <div class="p-5 my-5 text-white h-100 rounded-3 bg-semi-transparent">
+              <h1 class="display-5 fw-bold">Au Pain De Caractère</h1>
+              <p class="fs-5 my-4">
+                Découvrez l&apos;authenticité de notre boulangerie, où passion et tradition se marient pour créer des délices inoubliables.
+              </p>
+              <a class="btn btn-secondary btn-lg" href="#histoire" type="button">Nous découvrir</a>
+            </div>
           </div>
         </div>
       </div>
-      <div className="container py-5">
+      <section className="container py-5" id="histoire">
         <div class="row align-items-md-stretch">
           <div class="col-md-8">
             <div class="h-100 p-5 text-bg-dark rounded-3">
               <h2>Notre histoire</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis consectetur deleniti, a adipisci rerum aspernatur atque commodi quas, suscipit, totam ducimus nobis vero maxime explicabo optio maiores hic dolore nemo officiis repudiandae error ea numquam? Similique minus vitae nobis doloribus perferendis, nisi molestiae animi, adipisci nostrum consectetur ab saepe eaque esse quasi. Voluptatibus expedita voluptatum quasi sunt, eaque corrupti mollitia pariatur perferendis excepturi voluptas praesentium aliquam placeat porro facere est ipsum amet.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni in corrupti error libero reiciendis quos nisi nostrum, itaque unde quaerat distinctio cumque voluptate rem? Voluptatum incidunt ipsum quidem natus. Nesciunt magnam dolorem harum quam minus consequuntur ullam aperiam culpa, assumenda officia ducimus voluptates ut explicabo vel, repellat natus iste.</p>
+              <p>
+                Eddy, boulanger dans l&apos;âme depuis ses 16 ans, a toujours chéri le rêve d&apos;avoir sa propre boulangerie. Pour lui, la farine, l&apos;eau et la levure sont bien plus que de simples ingrédients ; ce sont les éléments d&apos;une alchimie mystique qui donne naissance à des œuvres d&apos;art comestibles.<br /><br />
+
+                Quant à Angélique, avec une passion inébranlable pour le service et un sourire radieux, elle a enchanté les clients de nombreux commerces tout au long de sa carrière. Pour elle, la boulangerie est bien plus qu&apos;un simple lieu de travail ; c&apos;est un sanctuaire où les liens se tissent, où les histoires se partagent et où chaque client est accueilli avec chaleur et bienveillance. <br /><br />
+
+                Ensemble, ils ont insufflé une nouvelle vie à cet établissement, mêlant l&apos;expertise artisanale d&apos;Eddy à l&apos;attention aux détails et à l&apos;art du service d&apos;Angélique. Chaque pain est pétri avec amour, chaque croissant est façonné avec soin, et chaque client est reçu comme un membre de la famille.
+              </p>
             </div>
           </div>
           <div class="col-md-4">
-            <img src="https://abdulsamad.xyz/Bakery/images/story-img.jpg" className="w-100" />
+            <img src="https://abdulsamad.xyz/Bakery/images/story-img.jpg" className="h-100 w-100" />
           </div>
         </div>
-      </div>
+      </section>
       <section className="bg-dark">
         <div className="container">
           <div className="row">
@@ -97,8 +104,16 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <img src="https://abdulsamad.xyz/Bakery/images/tasteful-recipes.jpg" class="my-5" height="300" width={"100%"} />
-      <div class="container p-0 pb-3">
+      <section class="separator text-white fs-3 text-center d-flex align-items-center">
+        <div className="container bg-semi-transparent py-5">
+          <div className="row d-flex align-items-center justify-content-center">
+            <div className="col-md-8">
+              <blockquote>"La boulangerie est l&apos;art de transformer humblement des ingrédients simples en joie pour le cœur et réconfort pour l&apos;âme."</blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container p-0 pb-3">
         <h2>Nous retrouver</h2>
         <div className="row">
           <div className="col-md-6">
@@ -109,22 +124,28 @@ export default function Home() {
             <div className="fa fa-envelope fa-1x"></div>Email <br />
           </div>
         </div>
-      </div>
+      </section>
       <footer class="bg-black text-white mt-5">
         <div className="container">
           <div class="row">
-            <div class="d-flex flex-column flex-sm-row py-4 my-4">
-              <div className="text-center w-75 mx-auto">
-                <h3>Au Pain De Caractère</h3>
-                <span class="fa fa-star text-secondary fa-1x my-3"></span>
-                <p>Texte de présentation rapide de la boulangerie pour qu&apos;on nous trouve sur Google.
-                  Vero possimus labore enim eos totam assumenda cupiditate doloribus sed quasi delectus fugiat necessitatibus nisi, eum amet repellat sit ad sunt consectetur impedit, perferendis provident dolores. Voluptates voluptas incidunt deleniti consectetur? Error dolores numquam distinctio sint nesciunt optio dolorum dolorem.</p>
-                  <div className="d-flex justify-content-center gap-4 mt-5">
-                  <i className="fa fab fa-facebook-square fa-1x"></i>
-                  <i className="fa fab fa-instagram fa-1x"></i>
-                  <i className="fa fab fa-twitter fa-1x"></i>
+            <div className="col-md-4">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FAu-Pain-de-caractere%2F61555733292883%2F&tabs=timeline&width=200&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="200" height="200" frameBorder="0" allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div className="col-md-8">
+              <div class="d-flex flex-column flex-sm-row py-4 my-4">
+                <div className="mx-auto">
+                  <h3>Au Pain De Caractère</h3>
+                  <span class="fa fa-star text-secondary fa-1x my-3"></span>
+                  <p>Texte de présentation rapide de la boulangerie pour qu&apos;on nous trouve sur Google.
+                    Vero possimus labore enim eos totam assumenda cupiditate doloribus sed quasi delectus fugiat necessitatibus nisi, eum amet repellat sit ad sunt consectetur impedit, perferendis provident dolores. Voluptates voluptas incidunt deleniti consectetur? Error dolores numquam distinctio sint nesciunt optio dolorum dolorem.</p>
+                  <div className="d-flex gap-4 mt-5">
+                    <i className="fa fab fa-facebook-square fa-1x"></i>
+                    <i className="fa fab fa-instagram fa-1x"></i>
+                    <i className="fa fab fa-twitter fa-1x"></i>
                   </div>
                   <p class="mt-5">Mentions légales</p>
+                  <small>Développé par Florent Vandroy</small>
+                </div>
               </div>
             </div>
           </div>

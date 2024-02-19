@@ -14,6 +14,16 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
   background-size: cover;
 }
 
+.bg-semi-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.separator {
+  background-image: url('https://abdulsamad.xyz/Bakery/images/tasteful-recipes.jpg');
+  background-size: cover;
+  min-height: 300px;
+}
+
 .navbar {
   min-height: 120px;
 }
@@ -25,7 +35,7 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
 }
 
 section {
-  @extend .py-5;
+  @extend .py-5, .my-5;
 }
 
 .number {
