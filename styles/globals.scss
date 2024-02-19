@@ -58,3 +58,15 @@ section {
 .contact-link:hover {
   color: rgb(87, 85, 85);
 }
+
+.mentions a {
+  color: $secondary;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: $secondary;
+}

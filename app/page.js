@@ -49,15 +49,15 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 d-none d-md-block">
             <img src="https://abdulsamad.xyz/Bakery/images/story-img.jpg" className="h-100 w-100" />
           </div>
         </div>
       </section>
       <section className="bg-dark">
         <div className="container">
-          <div className="row">
-            <div className="col-md-3 text-center text-white">
+          <div className="row gap-5 gap-md-0">
+            <div className="col-md-3 text-center text-white counters ">
               <i class="fa fa-certificate fa-4x text-secondary"></i>
               <p class="number">+20</p>
               <p>ans d&apos;expérience</p>
@@ -83,7 +83,7 @@ export default function Home() {
       <section className="container" id="specialites">
         <div class="row align-items-start">
           <div class="col-md-6">
-            <div className="px-5">
+            <div className="md-px-5">
               <div style={{ width: "100%", display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 10 }}>
                 <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 h-100" />
                 <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=2850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 h-100" />
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
           </div>
           <div class="col-md-6">
-            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <div class="h-100 p-5 bg-body-tertiary border rounded-3 mt-5 mt-md-0">
               <h2>Notre spécialités</h2>
               <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we&apos;ve adjusted the alignment and sizing of both column&apos;s content for equal-height.</p>
               <button class="btn btn-outline-secondary" type="button">Example button</button>
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2554.81483481439!2d1.4974468!3d50.1832983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dde39731eb7555%3A0xc1d36977dfcf5acd!2sAu%20Pain%20De%20Caractere!5e0!3m2!1sen!2sfr!4v1708271886947!5m2!1sen!2sfr" width="100%" height="300" allowfullscreen=""></iframe>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-md-0 mt-5">
             <h3 class="mb-4">Informations de contact</h3>
             <a href="tel:+33322260506" class="contact-link"><i className="fa fa-phone"></i> 03 22 26 65 06</a>
             <a href="mailto:njbadaire@gmail.com" class="contact-link"><i className="fa fa-envelope"></i> njbadaire@gmail.com</a>
@@ -127,27 +127,30 @@ export default function Home() {
       </section>
       <footer class="bg-black text-white mt-5">
         <div className="container">
-          <div class="row">
+          <div class="row justify-content-between py-5 mt-5">
             <div className="col-md-4">
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FAu-Pain-de-caractere%2F61555733292883%2F&tabs=timeline&width=200&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="200" height="200" frameBorder="0" allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <div className="w-100">
+              <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61555733292883" data-tabs="timeline" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61555733292883" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61555733292883">Au Pain de caractere </a></blockquote></div>
+              </div>
             </div>
             <div className="col-md-8">
-              <div class="d-flex flex-column flex-sm-row py-4 my-4">
-                <div className="mx-auto">
+              <div class="d-flex flex-column flex-sm-row">
+                <div className="mx-auto mt-md-0 mt-5">
                   <h3>Au Pain De Caractère</h3>
-                  <span class="fa fa-star text-secondary fa-1x my-3"></span>
+                  <span class="fa fa-star text-secondary fa-1x my-4"></span>
                   <p>
-                      Découvrez l&apos;authenticité artisanale de notre boulangerie à Cayeux-sur-mer, où chaque miette raconte une histoire de passion et de savoir-faire. Nos pains frais, nos pâtisseries délicieusement concoctées et nos croissants croustillants sont le fruit du travail acharné et de l&apos;amour que nous mettons dans chaque préparation. Rejoignez-nous dans cette aventure gustative et laissez-nous vous régaler avec nos délices traditionnels.
+                    Découvrez l&apos;authenticité artisanale de notre boulangerie à Cayeux-sur-mer, où chaque miette raconte une histoire de passion et de savoir-faire. Nos pains frais, nos pâtisseries délicieusement concoctées et nos croissants croustillants sont le fruit du travail acharné et de l&apos;amour que nous mettons dans chaque préparation. Rejoignez-nous dans cette aventure gustative et laissez-nous vous régaler avec nos délices traditionnels.
                   </p>
-                  <div className="d-flex gap-4 mt-5">
-                    <i className="fa fab fa-facebook-square fa-1x"></i>
-                    <i className="fa fab fa-instagram fa-1x"></i>
-                    <i className="fa fab fa-twitter fa-1x"></i>
+                  <div className="d-flex gap-4 mt-5 fs-3">
+                    <a href="https://www.facebook.com/profile.php?id=61555733292883"><i className="fa fab fa-facebook-square"></i></a>
                   </div>
-                  <p class="mt-5">Mentions légales</p>
-                  <small>Développé par Florent Vandroy</small>
                 </div>
               </div>
+            </div>
+            <div className="text-center mt-5 mentions">
+              <small>
+                <a href="#">Mentions légales</a> - Développé avec <i className="fa fas fa-heart text-danger"></i> par <a href="https://florent-vandroy.fr/">Florent Vandroy</a>
+              </small>
             </div>
           </div>
         </div>
